@@ -12,8 +12,8 @@ def hello_world():
     return render_template('hello.html') #commentairess
   
 @app.route("/contact/")
-def MaPremiereAPI():
-  return render_template('Contact.html')  
+def moncontact():
+    return render_template("contact.html")
 
 @app.route('/paris/')
 def meteo():
