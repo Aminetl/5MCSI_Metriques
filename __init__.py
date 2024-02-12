@@ -13,7 +13,7 @@ def hello_world():
   
 @app.route("/contact/")
 def moncontact():
-    return render_template("contact.html")
+    return render_template("Contact.html")
 
 @app.route('/paris/')
 def meteo():
