@@ -33,7 +33,7 @@ def mongraphique():
 
 @app.route("/histograme/")
 def monhistograme():
-    return render_template("histograme.html")
+    return render_template("Histograme.html")
 
 
 if __name__ == "__main__":
