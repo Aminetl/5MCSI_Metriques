@@ -35,6 +35,10 @@ def mongraphique():
 def monhistograme():
     return render_template("Histograme.html")
 
+@app.route("/histogramme/")
+def monhistogramme():
+    return render_template("Histogramme.html")
+
 
 @app.route('/paris2/')
 def paris22():
